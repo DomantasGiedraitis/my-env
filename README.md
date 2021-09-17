@@ -1,4 +1,4 @@
-### MacOS environemnt
+### MacOS environment
 - ITerm2
 - Oh-My-Zsh, with following plugins (see .zshrc for more incl. themes, etc)
    - git
