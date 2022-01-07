@@ -110,3 +110,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Redgate Clone Development
+alias devclone="dev-clone.redgate-platform.com"
+alias httpe="export SPAWNCTL_API_ENDPOINT=http://dev-clone.redgate-platform.com:8032/cloning-api/api/v1 && echo 'export SPAWNCTL_API_ENDPOINT=http://dev-clone.redgate-platform.com:8032/cloning-api/api/v1'"
+alias httpse="export SPAWNCTL_API_ENDPOINT=https://dev-clone.redgate-platform.com:8132/cloning-api/api/v1 && echo 'export SPAWNCTL_API_ENDPOINT=https://dev-clone.redgate-platform.com:8132/cloning-api/api/v1'"
+
+alias httpemk="export SPAWNCTL_API_ENDPOINT=http://localhost:5000/cloning-api/api/v1 && echo 'export SPAWNCTL_API_ENDPOINT=http://localhost:5000/cloning-api/api/v1'"
+alias httpsemk="export SPAWNCTL_API_ENDPOINT=https://localhost:8000/cloning-api/api/v1 && echo 'export SPAWNCTL_API_ENDPOINT=https://localhost:8000/cloning-api/api/v1'"
+
+alias experiment_postgresql="export RG_CLONING_CAPABILITY_ALLOW_UNSUPPORTED_ENGINE_VERSIONS=true && eco 'export RG_CLONING_CAPABILITY_ALLOW_UNSUPPORTED_ENGINE_VERSIONS=true'"
+
